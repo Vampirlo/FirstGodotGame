@@ -20,3 +20,9 @@ func _physics_process(delta):
 	velocity.y += Gravity
 	
 	velocity = move_and_slide(velocity, Floor)
+
+func animate():
+	var anim = "idle"
+	
+	if $Sprite.animation != anim:
+		$Sprite.play(anim)
