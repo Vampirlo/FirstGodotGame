@@ -29,9 +29,12 @@ position = Vector2( 0, 0.029 )
 scale = Vector2( 2, 2 )
 frames = SubResource( 1 )
 animation = "idle"
-frame = 2
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 1.31297, -1.23898 )
 shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
