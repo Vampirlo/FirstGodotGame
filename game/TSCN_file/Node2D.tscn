@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://TSCN_file/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tileset_TresFiles/tileset_ground.tres" type="TileSet" id=2]
+[ext_resource path="res://TSCN_file/Enemy.tscn" type="PackedScene" id=3]
+[ext_resource path="res://TSCN_file/Coin.tscn" type="PackedScene" id=4]
+[ext_resource path="res://TSCN_file/Spike.tscn" type="PackedScene" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource( 3 )]
+position = Vector2( 664, 248 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 786438, 0, 0, 851974, 0, 0, 917510, 0, 0, 983046, 0, 0, 1048582, 0, 0, 1048614, 28, 0, 1048615, 29, 0, 1048616, 30, 0, 1048617, 30, 0, 1048618, 31, 0, 1048619, 27, 0, 1114118, 0, 0, 1114130, 15, 0, 1114131, 16, 0, 1114150, 29, 0, 1179654, 0, 0, 1179664, 15, 0, 1179665, 16, 0, 1179666, 19, 0, 1179667, 20, 0, 1179672, 17, 0, 1179673, 18, 0, 1179685, 29, 0, 1179686, 29, 0, 1245190, 0, 0, 1245191, 0, 0, 1245192, 0, 0, 1245193, 0, 0, 1245194, 0, 0, 1245195, 0, 0, 1245196, 0, 0, 1245197, 2, 0, 1245198, 2, 0, 1245199, 1, 0, 1245200, 19, 0, 1245201, 20, 0, 1245202, 24, 0, 1245203, 24, 0, 1245208, 21, 0, 1245209, 22, 0, 1245210, 17, 0, 1245211, 18, 0, 1245220, 29, 0, 1245221, 29, 0, 1310726, 24, 0, 1310727, 24, 0, 1310728, 24, 0, 1310729, 24, 0, 1310730, 24, 0, 1310731, 24, 0, 1310732, 24, 0, 1310733, 24, 0, 1310734, 24, 0, 1310735, 24, 0, 1310736, 24, 0, 1310737, 24, 0, 1310738, 24, 0, 1310739, 24, 0, 1310744, 24, 0, 1310745, 24, 0, 1310746, 21, 0, 1310747, 22, 0, 1310748, 0, 0, 1310749, 2, 0, 1310750, 1, 0, 1310751, 1, 0, 1310752, 1, 0, 1310753, 1, 0, 1310754, 2, 0, 1310755, 1, 0, 1376275, 24, 0, 1376276, 24, 0, 1376277, 24, 0, 1376278, 24, 0, 1376279, 24, 0, 1376280, 24, 0, 1376281, 24, 0, 1376282, 24, 0, 1376283, 24, 0, 1376284, 24, 0, 1376285, 24, 0, 1376286, 24, 0, 1376287, 24, 0, 1376288, 24, 0, 1376289, 24, 0, 1376290, 24, 0, 1376291, 24, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 200, 280 )
+
+[node name="Coin3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 552, 256 )
+
+[node name="Coin4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 496, 288 )
+
+[node name="Coin5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 424, 264 )
+
+[node name="Spike" parent="." instance=ExtResource( 5 )]
+position = Vector2( 328, 320 )
+
+[node name="Spike2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 344, 320 )
+
+[node name="Spike3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 376, 320 )
+
+[node name="Spike4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 360, 320 )

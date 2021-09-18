@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backgroundCastles.png-c54b98880e9ca6c889837404e9e5a329.stex"
+path="res://.import/—Pngtree—cartoon gold coin png download_4463835.png-c9ce0edb3524f0604a01f99e5c8d4ce0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite's/Background's/backgroundCastles.png"
-dest_files=[ "res://.import/backgroundCastles.png-c54b98880e9ca6c889837404e9e5a329.stex" ]
+source_file="res://Sprite's/Coin/—Pngtree—cartoon gold coin png download_4463835.png"
+dest_files=[ "res://.import/—Pngtree—cartoon gold coin png download_4463835.png-c9ce0edb3524f0604a01f99e5c8d4ce0.stex" ]
 
 [params]
 

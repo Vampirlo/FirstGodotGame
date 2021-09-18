@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backgroundCastles.png-c54b98880e9ca6c889837404e9e5a329.stex"
+path="res://.import/pngaaa.com-2430699.png-bc935428eb9d95b7098b84c4e96337e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite's/Background's/backgroundCastles.png"
-dest_files=[ "res://.import/backgroundCastles.png-c54b98880e9ca6c889837404e9e5a329.stex" ]
+source_file="res://Sprite's/spike/pngaaa.com-2430699.png"
+dest_files=[ "res://.import/pngaaa.com-2430699.png-bc935428eb9d95b7098b84c4e96337e8.stex" ]
 
 [params]
 

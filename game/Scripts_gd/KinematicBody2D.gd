@@ -1,6 +1,11 @@
 extends KinematicBody2D
 
 var velocity = Vector2()
+
+var Coin = 0;
+
+var Health = 100;
+
 const Speed = 200
 const Gravity = 10
 const Jump = 200
@@ -26,3 +31,10 @@ func animate():
 	
 	if $Sprite.animation != anim:
 		$Sprite.play(anim)
+
+func ApplyDMG(dmg: int):
+	Health -= dmg
+	
+	if Health <= 0:
+		Health = 0
+		get_tree().reload_current_scene()
