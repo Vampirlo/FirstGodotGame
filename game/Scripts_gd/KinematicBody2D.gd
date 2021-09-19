@@ -12,6 +12,8 @@ const Jump = 200
 const Floor = Vector2(0,-1)
 
 func _physics_process(delta):
+	if Input.is_action_just_pressed("esc"):
+		get_tree().change_scene("res://Scenes/UI/Menu.tscn")
 	if Input.is_action_pressed("move_left"):
 		velocity.x = -Speed
 	elif Input.is_action_pressed("move_right"):
@@ -25,10 +27,6 @@ func _physics_process(delta):
 	velocity.y += Gravity
 	
 	velocity = move_and_slide(velocity, Floor)
-
-func get_input():
-	if Input.is_action_just_pressed("esc"):
-		get_tree().change_scene("res://Scenes/UI/Menu.tscn")
 
 func animate():
 	var anim = "idle"
