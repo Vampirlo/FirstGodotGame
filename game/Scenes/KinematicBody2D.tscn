@@ -9,7 +9,7 @@
 [ext_resource path="res://Animation/Stand/3.png" type="Texture" id=7]
 [ext_resource path="res://Animation/Stand/2.png" type="Texture" id=8]
 [ext_resource path="res://Animation/Stand/7.png" type="Texture" id=9]
-[ext_resource path="res://TSCN_file/ParallaxBackground.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Scenes/backgrounds/ParallaxBackground.tscn" type="PackedScene" id=10]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://TSCN_file/ParallaxBackground.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/backgrounds/ParallaxBackground.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Animation/Stand/4.png" type="Texture" id=2]
 [ext_resource path="res://Animation/Stand/7.png" type="Texture" id=3]
 [ext_resource path="res://Animation/Stand/2.png" type="Texture" id=4]
@@ -29,7 +29,7 @@ script = ExtResource( 10 )
 position = Vector2( 0, 0.029 )
 frames = SubResource( 1 )
 animation = "idle"
-frame = 1
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

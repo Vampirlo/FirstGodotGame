@@ -26,6 +26,10 @@ func _physics_process(delta):
 	
 	velocity = move_and_slide(velocity, Floor)
 
+func get_input():
+	if Input.is_action_just_pressed("esc"):
+		get_tree().change_scene("res://Scenes/UI/Menu.tscn")
+
 func animate():
 	var anim = "idle"
 	

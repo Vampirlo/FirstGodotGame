@@ -11,6 +11,10 @@ const Gravity = 10
 const Jump = 200
 const Floor = Vector2(0,-1)
 
+func get_input():
+	if Input.is_action_just_pressed("esc"):
+		get_tree().change_scene("res://Scenes/UI/Menu.tscn")
+
 func _physics_process(delta):
 	if Input.is_action_pressed("move_left"):
 		velocity.x = -Speed
