@@ -1,0 +1,9 @@
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\bin\Debug\FirstGame.dll
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\bin\Debug\FirstGame.pdb
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.csproj.AssemblyReference.cache
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.AssemblyInfoInputs.cache
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.AssemblyInfo.cs
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.csproj.CoreCompileInputs.cache
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.dll
+D:\BABYMETAL\MyFirstEngine\FirstGodotGame\game\.mono\temp\obj\Debug\FirstGame.pdb
